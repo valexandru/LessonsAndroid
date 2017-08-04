@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Va trebui pentru LinearLayout-ul principal sa setam anumite proprietati, pentru ca acesta
+    sa ocupe tot ecranul, sa aiba orientarea potrivita-->
+<!-- TODO (1) Seteaza layout_height ca fill_parent -->
+<!-- TODO (2) Seteaza layout_width ca fill_parent -->
+<!-- TODO (3) Seteaza orientarea ca fiind verticala -->
+
+
+<!-- Observatie! Pentru un cod cat mai lizibil, e indicat ca fiecare id sa inceapa
+    cu o prescurtare specifica obiectului, formata, de  obicei din primele 2 litere
+
+        De exemplu:
+            TextView cu id descriere: tv_descriere
+            EditText cu id input: et_input
+            ProgressBar cu id loading: pb_loading
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!-- Vom crea un camp in care sa afisam masina selectata din lista -->
+
+    <!-- TODO (4) Creaza un TextView cu id-ul tv_selected_car -->
+    <!-- TODO (5) Seteaza textul ca (Selected car) -->
+    <!-- TODO (6) Seteaza layout_width ca match_parent -->
+    <!-- TODO (7) Seteaza layout_height ca wrap_content -->
+
+
+    <!-- In interiorul linearLayout-ului principal, vom crea un linearLayout
+        in care vom avea un EditText in care se va introduce numele unei masini noi
+        si un buton de add -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <!-- TODO (8) Creaza un EditText cu id-ul et_new_car -->
+        <!-- TODO (9) Seteaza layout_width ca 200dp -->
+        <!-- TODO (10) Seteaza layout_height ca wrap_content -->
+        <!-- TODO (11) Seteaza un paddingRight de 2dp -->
+
+        <!-- TODO (12) Creaza un Button cu id-ul b_add_car -->
+        <!-- TODO (13) Seteaza layout_width ca wrap_content -->
+        <!-- TODO (14) Seteaza layout_height ca wrap_content -->
+        <!-- TODO (15) Seteaza ca si text "Add" -->
+
+    </LinearLayout>
+
+    <!-- Acum vom crea un listView in care vor fi afisate masinile din lista pe care o vom crea-->
+    <!-- TODO (16) Creaza un ListView cu id-ul lv_list_cars -->
+    <!-- TODO (17) Seteaza layout_width ca fill_parent -->
+    <!-- TODO (18) Seteaza layout_height ca fill_parent -->
+
+
+</LinearLayout>
