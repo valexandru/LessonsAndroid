@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- TODO (1)  Creeaza un imageView cu id-ul iv_image_element -->
+    <!-- TODO (2)  Seteaza layout_width ca "wrap_content" -->
+    <!-- TODO (3)  Seteaza layout_height ca "wrap_content" -->
+
+    <!-- TODO (4) Creeaza un TextView cu id-ul tv_name_element -->
+    <!-- TODO (5) Seteaza layout_width ca "wrap_content" -->
+    <!-- TODO (6) Seteaza layout_height ca "wrap_content" -->
+
+</LinearLayout>
